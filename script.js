@@ -17,8 +17,8 @@ var newCandidate = function(candidateName, partyColor)
     return candidate;
   }
 
-var candidate1 = newCandidate("Bob Line",[132, 17, 11]);
-var candidate2 = newCandidate("Elaine Henderson",[245, 141, 136]);
+var candidate1 = newCandidate("Hermione Granger",[132, 17, 11]);
+var candidate2 = newCandidate("Natasha Romonoff",[245, 141, 136]);
 
 console.log (candidate1.name + "'s party color is " + candidate1.partyColor);
 console.log (candidate2.name + "'s party color is " + candidate2.partyColor);
